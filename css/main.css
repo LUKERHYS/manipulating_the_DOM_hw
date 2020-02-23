@@ -1,11 +1,10 @@
 body {
-  margin-left: 0;
-  background-color: #fff;
+  background-color: grey;
   font-family: helvetica;
   font-weight: lighter;
 }
-h1, h2, h3, h4 {
-
+h2,  h4 {
+  color: white;
 }
 h1 {
 font-weight: lighter;
@@ -13,7 +12,7 @@ padding-left: 6%;
 }
 
 form {
-  margin: 2%;
+  margin: 2% 0 ;
   height: auto;
   display: flex;
   justify-content: center;
@@ -35,7 +34,7 @@ form {
 label {
   display: inline-flex;
   justify-content: flex-end;
-  width: 25%;
+  width: 15%;
   font-size: 20px;
   padding-right: 2%;
 }
@@ -44,39 +43,46 @@ input {
   width: 50%;
   font-size: 20px;
   margin-bottom: 1%;
+  background-color: white;
 }
 
 .form-buttons {
   display: flex;
   justify-content: center;
+  padding: 2%;
 }
 
 button {
-  width: 60%;
+  width: 20%;
   padding: 1% 2%;
-  margin: 2%;
+  border-radius: 15px;
+  border: none;
 }
 
 #new-film-button{
   background-color: dodgerblue;
   color: white;
+  margin-right: 1%;
 }
 
 #delete-all {
   background-color: #ffae42;
   color: white;
+  margin-left: 1%;
 }
 
 .film-list-container {
+}
+
+ul {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
-
 }
 
 li {
   list-style: none;
   background-color: lightgray;
-  width: 25%;
-  padding: 10%;
+  padding: 2%;
+  margin: 2px;
 }
