@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <script type="text/javascript" src="js/app.js"></script>
     <title></title>
   </head>
   <body>
@@ -10,7 +11,7 @@
 
         <div class="from-child">
           <label for="film_name">Film Name:</label>
-          <input type="text" id="file_name" />
+          <input type="text" id="film_name" />
         </div>
 
         <div class="form-child">
@@ -24,7 +25,8 @@
         </div>
 
         <div class="form-buttons">
-            <button type="submit" name="new-film-button">Save</button>
+            <button type="submit" id="new-film-button">Save</button>
+            <button type="submit" id="delete-all">Delete All</button>
         </div>
 
       </div>
@@ -32,7 +34,7 @@
   <div class="film-list-container">
     <h1>Films...</h1>
 
-    <ul class="film-list"></ul>
+    <ul id="film-list"></ul>
 
   </div>
   </body>
