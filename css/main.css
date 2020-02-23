@@ -1,0 +1,82 @@
+body {
+  margin-left: 0;
+  background-color: #fff;
+  font-family: helvetica;
+  font-weight: lighter;
+}
+h1, h2, h3, h4 {
+
+}
+h1 {
+font-weight: lighter;
+padding-left: 6%;
+}
+
+form {
+  margin: 2%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  width: 75%;
+  height: auto;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+
+.form-child {
+  display: inline-flex;
+  justify-content: center;
+}
+
+label {
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 25%;
+  font-size: 20px;
+  padding-right: 2%;
+}
+
+input {
+  width: 50%;
+  font-size: 20px;
+  margin-bottom: 1%;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 60%;
+  padding: 1% 2%;
+  margin: 2%;
+}
+
+#new-film-button{
+  background-color: dodgerblue;
+  color: white;
+}
+
+#delete-all {
+  background-color: #ffae42;
+  color: white;
+}
+
+.film-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+
+li {
+  list-style: none;
+  background-color: lightgray;
+  width: 25%;
+  padding: 10%;
+}
